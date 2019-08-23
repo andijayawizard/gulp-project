@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$merah: #f00;
+$putih: #fff;
+$hitam: #000;
+
+* {
+	font: 16px normal 'arial';
+	padding: 4px;
+}
+#kotak1 {
+	border: 1px solid lighten($hitam, 10%);
+}
+#kotak2 {
+	border: 1px solid lighten($hitam, 20%);
+}
+.div1 {
+	color: darken($merah, 10%);
+	padding: 12px;
+	border: 2px solid lighten($hitam, 25%);
+}
+.div2 {
+	color: $putih;
+	background: lighten($hitam, 50%);
+	padding: 8px;
+}
+.div3 {
+	color: darken($putih, 10%);
+	background: $merah;
+	padding: 12px;
+}

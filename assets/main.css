@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font: 16px normal 'arial';
+  padding: 4px; }
+
+#kotak1 {
+  border: 1px solid #1a1a1a; }
+
+#kotak2 {
+  border: 1px solid #333333; }
+
+.div1 {
+  color: #cc0000;
+  padding: 12px;
+  border: 2px solid #404040; }
+
+.div2 {
+  color: #fff;
+  background: gray;
+  padding: 8px; }
+
+.div3 {
+  color: #e6e6e6;
+  background: #f00;
+  padding: 12px; }
