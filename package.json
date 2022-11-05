@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/andijayawizard/gulp-project#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-coffee": "^3.0.3",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.7.0",
